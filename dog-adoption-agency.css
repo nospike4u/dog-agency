@@ -4,13 +4,11 @@
   box-sizing: border-box;
 }
 
-html {
-  position: absolute;
-}
-
 body {
   background-color: rgb(139, 206, 184);
+}
 
+main {
   padding: 2rem 2rem 2rem 2rem;
 }
 
@@ -68,7 +66,7 @@ h3 {
 }
 
 h3 {
-  color: rgb(182, 106, 0);
+  color: rgb(183, 106, 0);
 }
 
 h4 {
@@ -141,28 +139,67 @@ figcaption {
 .section__4 {
 }
 
-legend {
+fieldset {
   font-family: borel;
   color: blueviolet;
+  margin: 0 auto; /* center the fieldset horizontally */
+  padding: 1em; /* add some padding around the fieldset */
+  vertical-align: middle;
+  text-align: center;
+}
+
+legend {
+  padding: 0.5em; /* add some padding around the legend */
+}
+
+input {
+  width: 20rem;
+  border-radius: 5px;
+  border: none;
+  height: 1.5rem;
+  margin: 1rem;
 }
 
 textarea {
   border-radius: 5px;
+  border: none;
+  resize: none;
+  width: rem;
+  height: 7rem;
+  width: 20rem;
+}
+
+.message__area {
+  margin-left: -2rem;
+  padding-right: 1rem;
 }
 
 button {
   border-radius: 5px;
   border: 0px blue;
   width: 10rem;
+  height: 40px;
   margin: 3rem;
+  background-color: rgb(25, 167, 255);
+  color: #fff;
+  font-family: lobster;
+  font-weight: 100;
+  font-size: large;
+}
+
+button:hover {
+  cursor: pointer;
+  /* filter: hue-rotate(90deg); */
+}
+
+button:active {
+  background-color: bisque;
 }
 
 footer {
-  position: relative;
   height: 5rem;
   justify-content: center;
   align-items: center;
-  margin-top: 0rem;
   display: flex;
   background-color: #ee82ee;
   border-radius: 3px;
