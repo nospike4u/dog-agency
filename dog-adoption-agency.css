@@ -1,0 +1,176 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+html {
+  position: absolute;
+}
+
+body {
+  background-color: rgb(139, 206, 184);
+
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.header__1 {
+  /* border: 1px solid red;  */
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.header__1 h1 {
+  align-items: flex-start;
+  /* border: 1px solid red;  */
+}
+
+.header__1 img {
+  /* position: absolute; */
+  align-self: center;
+  margin: 2rem;
+  /* border: 1px solid red;  */
+  filter: drop-shadow(2px 2px 10px #4444dd);
+}
+
+.h1__heading {
+  color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: violet;
+  font-family: "Pacifico", cursive;
+  font-size: 80px;
+  filter: drop-shadow(10px 10px 1px #4444dd);
+}
+
+.motto {
+  font-family: "Borel", cursive;
+  /* border: 1px solid red; */
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.section__1,
+.section__2 p {
+  font-family: tahoma;
+}
+
+.service__text {
+  font-family: tahoma;
+}
+
+.h2__heading,
+h3 {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: lighter;
+  color: rgb(255, 255, 177);
+  margin: 1rem 0 1rem 0;
+}
+
+h3 {
+  color: rgb(182, 106, 0);
+}
+
+h4 {
+  color: #fff;
+  font-family: "Borel", cursive;
+}
+
+.list {
+  list-style-image: url("dog-bone-icon.png");
+  color: #fff;
+  list-style: none;
+  font-family: Tahoma;
+}
+
+.gallery__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+.gallery {
+  display: grid;
+  /* border: 1px solid red; */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.gallery__item {
+  /* border: 1px solid rgb(0, 34, 255); */
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.399);
+  font-family: Tahoma;
+  font-size: x-small;
+}
+
+.gallery__item img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  filter: sepia(1);
+}
+
+.gallery__item img:hover {
+  animation-duration: 3s;
+  animation-name: slidein;
+  cursor: pointer;
+}
+
+@keyframes slidein {
+  from {
+    transform: scale(1);
+    filter: sepia(0);
+    transform: rotate(-2deg);
+  }
+
+  to {
+    transform: scale(0.9);
+    filter: sepia(0);
+    transform: rotate(-2deg);
+  }
+}
+
+.section__4 {
+}
+
+legend {
+  font-family: borel;
+  color: blueviolet;
+}
+
+textarea {
+  border-radius: 5px;
+}
+
+button {
+  border-radius: 5px;
+  border: 0px blue;
+  width: 10rem;
+  margin: 3rem;
+}
+
+footer {
+  position: relative;
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0rem;
+  display: flex;
+  background-color: #ee82ee;
+  border-radius: 3px;
+  background: radial-gradient(#5716e4, #a451a4);
+  /* border: 1px solid red; */
+}
+
+.footer__text {
+  color: #fff;
+  font-family: "Borel", cursive;
+}
