@@ -15,7 +15,7 @@
   <body>
     <main>
     <header class="header__1">
-      <img src="/dog-adoption-agency/src/golden-retriever-dog.webp" width="140px" height="auto">
+      <img src="/src/golden-retriever-dog.webp" width="140px" height="auto" alt="dog logo">
     <h1 class="h1__heading">Find your Furry Friend!</h1>
   </header>
     <p class="motto">
@@ -103,7 +103,7 @@
       </section>
       <section class="section__4">
     <h2 class="h2__heading">Get In Touch</h2>
-    <form method="POST">
+    <form class="form" method="POST">
       <br>
       <fieldset>
       <legend>Personal Information:</legend>
@@ -115,9 +115,9 @@
         <input type="text" name="email" id="email">
         <br>
         <br>
-        <h3>Message</h3>
-        <label for="textArea"></label>
-        <textarea placeholder="Message to your future doggo..." id="textArea" style="width: 300px; height: 100px;"></textarea>
+        <h3>Dear future buddy...</h3>
+        <label class="message__area" for="textArea">Message</label>
+        <textarea placeholder="Message to your future doggo..." id="textArea" ></textarea>
         <br>
         <button type="submit">Submit</button>
       </fieldset>
@@ -125,8 +125,16 @@
   </section>
   <br>
 </main>
-  </body>
-  <footer class="footer">
-    <p class="footer__text">© 2024 Dog Adoption Agency</p>
+<footer class="footer">
+  <p class="footer__text">© 2024 Dog Adoption Agency</p>
 </footer>
+  </body>
+
 </html>
+
+<!-- number of dog in gallery as a field in form
+ img gallery alignment issues
+check text
+name of aoption cneter to be highlighted. Also can put it around dog on logo
+or in motto
+Personal information > contact us-->
