@@ -117,7 +117,7 @@ figcaption {
 }
 
 .gallery__item img:hover {
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-name: slidein;
   cursor: pointer;
 }
@@ -167,6 +167,7 @@ textarea {
   width: rem;
   height: 7rem;
   width: 20rem;
+  padding: 1rem;
 }
 
 .message__area {
